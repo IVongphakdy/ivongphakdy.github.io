@@ -12,7 +12,13 @@
 </head>
 
 <body>
-    <? php include("sideNav.html"); ?>
+    <div id="nav-placeholder"></div>
+
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("sideNav.html");
+    });
+    </script>
     
 
 

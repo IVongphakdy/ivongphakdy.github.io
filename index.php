@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <?php include("sideNav.html"); ?>
+    <? php include("sideNav.html"); ?>
     
 
 

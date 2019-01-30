@@ -19,8 +19,11 @@ a {
     color: black;
 }
 a:hover {
-	color: #B87900;
-    transition: 0.2s;
+		color: #B87900;
+	  transition: 0.2s;
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+		-o-transition: 0.2s;
 }
 
 /*------------------sidenav------------------*/
@@ -65,8 +68,10 @@ nav a {
 nav a:hover {
 	color: #B87900;
     padding-left: 2px;
-    -webkit-transition: 0.2s; /* Safari */
-    transition: 0.2s;
+		transition: 0.2s;
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+		-o-transition: 0.2s;
 }
 
 nav a:active {
@@ -106,7 +111,10 @@ nav a:active {
 .socials a:hover p {
     visibility: visible;
     padding-left: 5px;
-    transition: 0.1s;
+		transition: 0.1s;
+		-webkit-transition: 0.1s;
+		-moz-transition: 0.1s;
+		-o-transition: 0.1s;
 }
 
 /*------------------container------------------*/
@@ -136,12 +144,18 @@ nav a:active {
     vertical-align: middle;
     width: 100%;
     transform: scale(1);
-    transition: 0.1s;
+		transition: 0.1s;
+		-webkit-transition: 0.1s;
+		-moz-transition: 0.1s;
+		-o-transition: 0.1s;
 }
 .column img:hover {
     transform: scale(0.99);
     opacity: 0.8;
-    transition: 0.2s;
+		transition: 0.2s;
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+		-o-transition: 0.2s;
 }
 
 /*------------------contact------------------*/

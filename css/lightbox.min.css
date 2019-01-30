@@ -17,7 +17,7 @@ html.lb-disable-scrolling {
     top:0;
     left:0;
     z-index:9999;
-    background-color:#000;
+    background-color: #000;
     filter:alpha(Opacity=80);
     opacity:.8;
     display:none
@@ -40,20 +40,24 @@ html.lb-disable-scrolling {
     border:none
 }
 .lb-outerContainer{
-    position:relative;
+    position: fixed;
     width:250px;
     height:250px;
-    margin:0 auto;
-    border-radius:4px;
     background-color:#fff
+    padding: 2em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 .lb-loader,.lb-nav{
     position:absolute;
     left:0
 }
+/*
 .lb-outerContainer:after{
     display:table
 }
+*/
 .lb-loader{
     top:43%;
     height:25%;
@@ -87,20 +91,31 @@ html.lb-disable-scrolling {
     width:34%;
     left:0;
     float:left;
-    background:url(../images/prev.png) left 48% no-repeat;
+    background:url(/img/lb-prev.png) left 48% no-repeat;
     filter:alpha(Opacity=0);
     opacity:0;
     -webkit-transition:opacity .6s;
     -moz-transition:opacity .6s;
     -o-transition:opacity .6s;
-    transition:opacity .6s
+    transition:opacity .6s;
+/*    background-color: aqua;  */
 }
 .lb-nav a.lb-prev:hover{
     filter:alpha(Opacity=100);
     opacity:1
 }.lb-nav a.lb-next{
     width:64%;
-    right:0;float:right;background:url(../images/next.png) right 48% no-repeat;filter:alpha(Opacity=0);opacity:0;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s}
+    right:0;
+    float:right;
+    background:url(/img/lb-next.png) right 48% no-repeat;
+    filter:alpha(Opacity=0);
+    opacity:0;
+    -webkit-transition:opacity .6s;
+    -moz-transition:opacity .6s;
+    -o-transition:opacity .6s;
+    transition:opacity .6s;
+/*    background-color: aqua;*/
+}
 .lb-nav a.lb-next:hover{
     filter:alpha(Opacity=100);opacity:1}
 .lb-dataContainer{

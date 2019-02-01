@@ -28,14 +28,14 @@
 
     <div class="contact">
         <h5>EMAIL BELOW OR CALL<span>  —  <a href="tel:+18583377396">(858) 337 - 7396</a></span></h5>
-        
-        <form action="action_page.php">
+
+        <form id="contact-form" method="post" action="contact-form.php">
 
             <label for="name">Name*</label>
-            <input type="text" id="name" name="fullname" placeholder="Your Name">
+            <input type="text" id="name" name="name" placeholder="Your Name" class="form-control" required>
 
             <label for="email">Email*</label>
-            <input type="text" id="email" name="email" placeholder="Your Email">
+            <input type="text" id="email" name="email" placeholder="Your Email" class="form-control" required>
 
             <label fpr="message">Message*</label>
             <textarea id="message" name="message" placeholder="Your Message" style="height:200px"></textarea>

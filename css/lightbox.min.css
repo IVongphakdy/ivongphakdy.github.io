@@ -19,7 +19,7 @@ html.lb-disable-scrolling {
     z-index:9999;
     background-color: #000;
     filter:alpha(Opacity=80);
-    opacity:.8;
+    opacity:.9;
     display:none
 }
 .lightbox{
